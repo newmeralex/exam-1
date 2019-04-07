@@ -1,0 +1,353 @@
+body {
+    background-color: #fff;
+}
+
+.section1 {
+    background: url("Travel More-assets/Image1.png") no-repeat;
+    background-size: cover;
+    height: 740px;
+    margin: 0;
+
+}
+.title__first--section1 {
+    /*font-family: JosefinSans;*/
+    font-weight: bold;
+    text-align: center;
+   color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 26px;
+
+}
+.text__first--section1 {
+    /*font-family: JosefinSans, Regular;*/
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+.form1__first--section1 {
+    margin: 52px 560px 120px 560px;
+
+    }
+.search__form1__first--section1 {
+    width: 650px;
+    height: 60px;
+    align-content: center;
+}
+.scroll__first--section1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: white;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    }
+.svg__first--section1 {
+    width: 30px;
+    height: 15px;
+    color: #e3e9ed;
+    text-align: center;
+}
+.svg-2__first--section1 {
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin: auto;
+    color: white;
+    }
+.button__form1__first--section1 {
+    background: url("Travel More-assets/Rectangle 1.png") no-repeat;
+    width: 146px;
+    height: 56px;
+}
+
+.section2 {
+    background: url("Travel More-assets/Rectangle 2.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+    line-height: 80px;
+}
+.title__section2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.row__section2 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: row;
+justify-content: flex-end;
+    padding: 45px;
+
+}
+.section3 {
+    background: url("Travel More-assets/Rectangle4 2.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.title__1__section3 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.text__1__section3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    }
+.button__section3-button {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    background: url("Travel More-assets/Rectangle 8.png") no-repeat;
+    border: none;
+    width: 225px;
+    height: 61px;
+    text-transform: uppercase;
+}
+
+.block__1__section3 {
+    background: url("Travel More-assets/Rectangle 9.png") no-repeat;
+    background-size: cover;
+    height: 336px;
+}
+
+.column__section3 {
+    margin: 204px 96px 178px 330px;
+    width: 541px;
+    height: 363px;
+}
+
+.block__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first__img__1 {
+    margin: 120px 456px 5px 95px;
+}
+
+.second__img__1 {
+    margin: 0 331px auto 220px;
+}
+
+
+.section4 {
+    background: url("Travel More-assets/Rectangle 414.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.block__1__section4 {
+    display: inline-block;
+    background: url("Travel More-assets/Rectangle 415.png") no-repeat;
+    width: 540px;
+    height: 371px;
+    margin: 229px 30px auto 330px;
+}
+
+.title__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.text1__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.bottom__4__block__1__section4 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button__button__4 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    background: url("Travel More-assets/Rectangle 8.png") no-repeat;
+    border: none;
+    width: 225px;
+    height: 61px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+
+.block__2__section4 {
+    display: inline-block;
+    background: url("Travel More-assets/Rectangle 415.png") no-repeat;
+    width: 540px;
+    height: 371px;
+    margin: 930px 345px auto 0;
+}
+
+.title__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.text1__block__1__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.title__block__2__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    }
+
+.text__block__2__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.text1__block__2__section4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.bottom__4__block__2__section4 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.section5 {
+    background: url("Travel More-assets/Rectangle 4142.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.title__section5 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+    line-height: 26px;
+    }
+
+
+.block__container__section5 {
+    background: url("Travel More-assets/Rectangle 415.png") no-repeat;
+    width: 666px;
+    height: 284px;
+    overflow: hidden;
+}
+.svg__container__text__section5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one {
+    width: 20px;
+    height: 17px;
+    transform: rotate(180deg);
+    }
+
+.coma__text__section5--section5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.section6 {
+    background: url("Travel More-assets/Rectangle 9.png") no-repeat;
+    background-size: cover;
+    height: 267px;
+    }
+.class__section6 {
+    margin-top: 120px;
+}
+.title__section6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.text__section6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    }
+
+.ul_section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style:none;
+}
