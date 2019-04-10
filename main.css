@@ -4,7 +4,7 @@ body {
 
 .section1 {
     background: url("Travel More-assets/Image1.png") no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     height: 740px;
     margin: 0;
     display: flex;
@@ -14,22 +14,23 @@ body {
 }
 
 .title__first--section1 {
-    /*font-family: JosefinSans;*/
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-size: 48px;
 
+
 }
 
 .text__first--section1 {
-    /*font-family: JosefinSans, Regular;*/
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: normal;
     text-align: center;
     color: white;
     font-size: 22px;
-    line-height: 26px;
+    letter-spacing: 4px;
 
 }
 
@@ -41,7 +42,7 @@ body {
 .search__form1__first--section1 {
     width: 650px;
     height: 60px;
-    align-content: center;
+
 }
 
 .scroll__first--section1 {
@@ -49,8 +50,8 @@ body {
     font-weight: normal;
     text-transform: capitalize;
     color: white;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 14px;
+
     text-align: center;
 }
 
@@ -69,6 +70,15 @@ body {
     margin: auto;
     color: white;
 }
+[placeholder] {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: auto;
+    padding-left: 150px;
+
+}
+
 
 .button__form1__first--section1 {
     background: url("Travel More-assets/Rectangle 1.png") no-repeat;
@@ -78,6 +88,9 @@ body {
     right: 0;
     top: 2px;
     display: flex;
+    border: none;
+    margin: -1px 3px 1px auto;
+
 }
 
 .form1__first--section1 form {
@@ -88,13 +101,14 @@ body {
     max-width: 1130px;
     padding: 0 10px;
     margin: auto;
+
 }
 
 .section2 {
     background: url("Travel More-assets/Rectangle 2.png") no-repeat;
     background-size: cover;
     margin: 0;
-    line-height: 80px;
+    height: 80px;
 }
 
 .d-flex {
@@ -111,6 +125,7 @@ body {
     line-height: 26px;
     text-align: left;
     width: 49%;
+    padding-top: 25px;
 }
 
 .row__section2 {
@@ -120,11 +135,13 @@ body {
     font-size: 14px;
     line-height: 26px;
     width: 49%;
+    padding-top: 25px;
+    text-transform: uppercase;
 }
 
 .section3 {
     background: url("Travel More-assets/Rectangle4 2.png") no-repeat;
-    background-size: cover;
+  /*  background-size: cover;*/
     margin: 0 auto;
 }
 
@@ -132,14 +149,24 @@ body {
     align-items: center;
     padding: 50px;
 }
+.poisk__1 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+   margin-left: 20px;
+}
 
 .title__1__section3 {
     font-family: 'Aleo', serif;
     font-weight: normal;
     color: white;
     font-size: 36px;
-    line-height: 26px;
     text-transform: capitalize;
+    margin-bottom: 68px;
+
+
 }
 
 .text__1__section3 {
@@ -158,26 +185,59 @@ body {
     width: 225px;
     height: 61px;
     text-transform: uppercase;
+    color: white;
+    float: left;
+    margin-top: 50px;
 }
-
+.svg__checked-svg {
+    padding-left: 18px;
+}
 .block__1__section3 {
     background: url("Travel More-assets/Rectangle 9.png") no-repeat;
-    background-size: cover;
+   /* background-size: cover;*/
     height: 336px;
 }
 
 .block__1__section3__inner {
     background: url(Icon-font-7-stroke-PIXEDEN-v-1.2.0/images/boobs.png) center no-repeat;
+    padding-top: 135px;
 }
 
 .column__section3, .section3-images {
     width: 49%;
 }
 
+.section3-images {
+    margin-top: 120px;
+}
 .block__down {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 22px;
+   }
+
+.text__down1 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+    padding-left: 10px;
+
+}
+.text__down2 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+
+}
+#text__down3 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+padding-right: -15px;
 }
 
 .img__1 {
@@ -187,18 +247,50 @@ body {
 .img__2 {
     text-align: right;
 }
+.svg__search-svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+.section-inner d-flex block__1__section3__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 50px;
+}
+.svg__search-svg {
+    padding-left: 90px;
+}
+.svg__like {
+    padding-right: 90px;
+}
 
 .section4 {
     background: url("Travel More-assets/Rectangle 414.png") no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 100vh;
+    /*background-size: cover;*/
+    height: 1400px;
 }
 
-.block__1__section4 {
+.block__1__section4, .block__2__section4 {
     background: rgba(00, 00, 00, 0.7);
-    width: 49%;
+    width: 39%;
+    overflow: hidden;
+
+}
+.block__1__section4{
+    height: 360px;
+    margin-left: 331px;
+    overflow: hidden;
+    margin-bottom: 330px;
+    float: left;
+    margin-top: 230px;
+}
+
+.block__2__section4 {
+    height: 360px;
+    margin-right: 331px;
+
 }
 
 .title__block__1__section4 {
@@ -207,6 +299,8 @@ body {
     color: white;
     font-size: 20px;
     line-height: 26px;
+    padding-top: 48px;
+    padding-bottom: 30px;
 }
 
 .text__block__1__section4 {
@@ -214,7 +308,6 @@ body {
     font-weight: normal;
     color: white;
     font-size: 20px;
-    line-height: 26px;
     text-transform: uppercase;
 }
 
@@ -224,6 +317,8 @@ body {
     color: white;
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 30px;
+    overflow: hidden;
 
 }
 
@@ -245,6 +340,8 @@ body {
     color: white;
     text-transform: uppercase;
     text-align: center;
+    float: left;
+    margin-left: 30px;
 }
 
 
@@ -252,9 +349,9 @@ body {
     display: inline-block;
     background: rgba(00, 00, 00, 0.7);
     float: right;
-    width: 49%;
+    width: 541px;
     height: 371px;
-    /*margin: 930px 345px auto 0;*/
+
 }
 
 .title__block__1__section4 {
@@ -263,6 +360,7 @@ body {
     color: white;
     font-size: 20px;
     line-height: 26px;
+    margin-left: 30px;
 }
 
 .text__block__1__section4 {
@@ -271,15 +369,20 @@ body {
     color: white;
     font-size: 20px;
     line-height: 26px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    margin-left: 30px;
 }
 
 .text1__block__1__section4 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: normal;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
+    margin-left: 30px;
+   /* margin-top: 230px;*/
+
 
 }
 
@@ -298,6 +401,9 @@ body {
     font-size: 20px;
     line-height: 26px;
     text-transform: capitalize;
+    padding-bottom: 35px;
+    overflow: hidden;
+
 }
 
 .text1__block__2__section4 {
@@ -306,6 +412,7 @@ body {
     color: white;
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 50px;
 
 }
 
@@ -320,9 +427,12 @@ body {
 
 .section5 {
     background: url("Travel More-assets/Rectangle 4142.png") no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     margin: 0;
-    height: 100vh;
+    height: 730px;
+}
+.one {
+    margin-left: 0;
 }
 
 .title__section5 {
@@ -330,13 +440,23 @@ body {
     font-weight: normal;
     color: white;
     font-size: 36px;
+    padding-top: 124px;
+    text-align: center;
+    padding-bottom: 97px;
 }
-
-
+.title__section5-2 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
 .block__container__section5 {
     width: 666px;
-    height: 284px;
+   /* height: 284px;*/
     overflow: hidden;
+    padding-top: 57px;
+    padding-bottom: -10px;
 }
 
 .container__section5 {
@@ -345,7 +465,7 @@ body {
 }
 
 .section5__container__section5 {
-    width: 40%;
+    width: 44%;
 }
 
 .block__container__section5 {
@@ -367,7 +487,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: normal;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 26px;
 
 }
@@ -393,6 +513,7 @@ body {
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 1px;
 
 }
 
@@ -403,6 +524,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
+
 }
 
 .ul_section6 {
@@ -411,4 +533,5 @@ body {
     justify-content: space-around;
     list-style: none;
     padding: 0;
+
 }
