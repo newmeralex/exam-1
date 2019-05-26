@@ -1,0 +1,43 @@
+.slider .slide {
+    height: 400px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.slick-arrow {
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #555;
+    opacity: 0.5;
+    border: none;
+    z-index: 1;
+    outline: none;
+    cursor: pointer;
+}
+.slick-arrow:hover {
+   opacity: 1;
+}
+.slick-next {
+    right: 0;
+    outline: none;
+}
+.slick-dots li{
+     display: inline-block;
+ }
+.slick-dots {
+    padding: 0;
+    text-align: center;
+}
+
+.slick-dots .slick-active button {
+    background: #00a2ff;
+}

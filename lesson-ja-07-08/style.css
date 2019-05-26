@@ -1,0 +1,16 @@
+.content > div:not(.active) {
+    display: none;
+}
+a {
+    margin: 0 10px;
+}
+a.active {
+    color: red;
+}
+
+a:not(.active) + div {
+    display: none;
+}
+.accordion a {
+    display: block;
+}
